@@ -12,18 +12,18 @@ header {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(241, 134, 48, 0.75);
+  color: rgba(255, 255, 255, 0.75);
   letter-spacing: 1px;
   font-size: 0.95rem;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:active {
-  color: #000000;
+  color: #fff;
 }
 
 .da-home-page-text {
   padding-top: 18rem;
-  color: #F18630;
+  color: #fff;
 }
 
 @media (max-width: 575.98px) {

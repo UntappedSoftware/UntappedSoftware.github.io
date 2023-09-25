@@ -9,6 +9,7 @@ header {
   height: 100vh;
   min-height: 600px;
   background-size: cover;
+  filter: brightness(30%);
 }
 
 .navbar-dark .navbar-nav .nav-link {

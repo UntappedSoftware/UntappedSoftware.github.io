@@ -7,6 +7,10 @@
   style
 >
   <head>
+    <script>
+      Content-Security-Policy: script-src 'self'; script-src-elem 'self' https://js.driftt.com;
+    </script>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Untapped - Software Development Staff Augmentation</title>
@@ -4172,10 +4176,10 @@
         display: none !important;
       }
     </style>
-    <meta
+    <!-- <meta
       http-equiv="content-security-policy"
       content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"
-    />
+    /> -->
     <style>
       img[src="data:,"],
       source[src="data:,"] {

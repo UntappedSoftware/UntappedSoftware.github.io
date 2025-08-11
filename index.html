@@ -9349,7 +9349,7 @@
       <output
         class="mdS:justify-center justify-start mx-auto flex py-3 px-4 will-change-transform bg-site-neutrals-900 max-w-full fixed w-full bottom-0 z-50 translate-y-full opacity-0 pointer-events-none animate-snackbar-show"
       >
-        <div class="flex items-center gap-3 w-[calc(100%-4rem)] mdS:w-auto">
+        <div id="cookie-banner" class="flex items-center gap-3 w-[calc(100%-4rem)] mdS:w-auto">
           <div class="site-paragraph-m flex-1 font-bold text-white">
             <span class="mdS:w-full block font-normal">
               By continuing to use this site, you agree to our
@@ -9375,7 +9375,7 @@
             </span>
           </div>
           <div class="flex gap-3">
-            <button
+            <button id="cookie-accept"
               type="button"
               class="flex items-center justify-center gap-2 disabled:pointer-events-none [&amp;_svg]:fill-current outline-none px-4 rounded-lg active:shadow-none disabled:bg-site-neutrals-200 disabled:text-site-neutrals-50 text-site-neutrals-0 active:bg-site-secondary-green-800 bg-site-secondary-green-700 hover:bg-site-secondary-green-800 focus:shadow-site-secondary-green-50 py-2 site-paragraph-s font-medium pointer"
             >
@@ -9399,6 +9399,28 @@
         </div>
       </output>
     </div>
+    <!-- Banner script start-->
+<!-- <div id="cookie-banner" style="background: #eee; padding: 1rem; position: fixed; bottom: 0; width: 100%;"> -->
+  We use cookies to improve your experience.
+  <!-- <button id="cookie-accept">Got it!</button> -->
+<!-- </div> -->
+
+<script>
+  const banner = document.getElementById("cookie-banner");
+  const btn = document.getElementById("cookie-accept");
+
+  // Hide banner if already accepted
+  if (localStorage.getItem("cookiesAccepted") === "true") {
+    banner.style.display = "none";
+  }
+
+  // On click: hide and save preference
+  btn.addEventListener("click", () => {
+    banner.style.display = "none";
+    localStorage.setItem("cookiesAccepted", "true");
+  });
+</script>
+<!-- Banner script end-->
     <next-route-announcer>
       <p
         aria-live="assertive"

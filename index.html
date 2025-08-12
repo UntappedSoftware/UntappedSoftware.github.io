@@ -4192,6 +4192,9 @@
       source[src="data:,"] {
         display: none !important;
       }
+      html {
+      scroll-behavior: smooth;
+    }
     </style>
     <noscript data-n-css></noscript>
   </head>
@@ -5178,7 +5181,7 @@
               </ul>
               <a
                 class="w-fit flex items-center justify-center gap-2 disabled:pointer-events-none [&amp;_svg]:fill-current outline-none px-4 rounded-lg active:shadow-none disabled:bg-site-neutrals-200 disabled:text-site-neutrals-50 bg-site-neutrals-900 text-site-neutrals-0 hover:bg-site-neutrals-700 focus:shadow-site-primary-50 py-2.5 site-paragraph-m font-medium ml-8 mdL:ml-2"
-                href="https://www.untappedsoftware.com/start/basic-details/"
+                href="https://calendly.com/untappedsoftware/30min"
               >
                 <span class>Schedule a Call</span>
               </a>
@@ -5366,7 +5369,7 @@
             </p>
             <a
               class="w-fit flex items-center justify-center gap-2 disabled:pointer-events-none [&amp;_svg]:fill-current outline-none px-4 rounded-lg active:shadow-none disabled:bg-site-neutrals-200 disabled:text-site-neutrals-50 bg-site-primary-600 hover:bg-site-primary-700 hover:text-site-neutrals-0 active:bg-site-primary-800 active:text-site-neutrals-0 text-site-neutrals-0 focus:text-site-neutrals-0 focus:shadow-site-primary-50 py-3 site-paragraph-xl font-medium"
-              href="https://www.untappedsoftware.com/start/basic-details/"
+              href="https://calendly.com/untappedsoftware/30min"
             >
               <span class>Expand Your Lineup</span>
             </a>
@@ -5801,7 +5804,7 @@
           </div>
         </div>
       </section>
-      <div class="h-20 md:h-40"></div>
+      <div class="h-20 md:h-40" style="height: 0;"></div>
       <section
         class="mx-4 md:mx-6 lg:mx-[9.25rem] xl:mx-52 2xl:mx-auto 2xl:max-w-[94rem]"
       >
@@ -7524,7 +7527,7 @@
             </p>
             <a
               class="w-fit flex items-center justify-center gap-2 disabled:pointer-events-none [&amp;_svg]:fill-current outline-none px-4 rounded-lg active:shadow-none disabled:bg-site-neutrals-500 disabled:text-site-neutrals-100 text-site-neutrals-0 active:bg-site-secondary-green-800 bg-site-secondary-green-600 hover:bg-site-secondary-green-800 focus:shadow-site-secondary-green-200 py-3 site-paragraph-xl font-medium mt-6 md:mt-12"
-              href="https://www.untappedsoftware.com/start/basic-details/"
+              href="https://calendly.com/untappedsoftware/30min"
             >
               <span class>Schedule a Call</span>
               <span class>
@@ -7968,7 +7971,7 @@
               </p>
               <a
                 class="w-fit flex items-center justify-center gap-2 disabled:pointer-events-none [&amp;_svg]:fill-current outline-none px-4 rounded-lg active:shadow-none disabled:bg-site-neutrals-200 disabled:text-site-neutrals-50 bg-site-primary-600 hover:bg-site-primary-700 hover:text-site-neutrals-0 active:bg-site-primary-800 active:text-site-neutrals-0 text-site-neutrals-0 focus:text-site-neutrals-0 focus:shadow-site-primary-50 py-3 site-paragraph-xl font-medium"
-                href="https://www.untappedsoftware.com/start/basic-details/"
+                href="https://calendly.com/untappedsoftware/30min"
               >
                 <span class>Schedule a Call</span>
               </a>
@@ -8155,7 +8158,7 @@
                   <a
                     rel="noreferrer"
                     class="w-fit flex items-center justify-center gap-2 disabled:pointer-events-none [&amp;_svg]:fill-current outline-none px-4 rounded-lg active:shadow-none disabled:bg-site-neutrals-200 disabled:text-site-neutrals-50 bg-site-primary-600 hover:bg-site-primary-700 hover:text-site-neutrals-0 active:bg-site-primary-800 active:text-site-neutrals-0 text-site-neutrals-0 focus:text-site-neutrals-0 focus:shadow-site-primary-50 py-3 site-paragraph-xl font-medium"
-                    href="https://www.untappedsoftware.com/start/basic-details/"
+                    href="https://calendly.com/untappedsoftware/30min"
                   >
                     <span class>Schedule a Call</span>
                   </a>
@@ -8208,21 +8211,12 @@
               >
                 <span>
                   <div
-                    class="flex h-6 w-6 justify-center rounded-full bg-green-600 align-middle"
-                  >
-                    <span class>
-                      <svg
-                        class="fill-white w-6 h-6"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M6.875 14.5C6.725 14.3667 6.65 14.1957 6.65 13.987C6.65 13.779 6.725 13.6 6.875 13.45L11.375 8.97501C11.4583 8.87501 11.5543 8.80401 11.663 8.76201C11.771 8.72068 11.8833 8.70001 12 8.70001C12.1167 8.70001 12.2293 8.72068 12.338 8.76201C12.446 8.80401 12.5417 8.87501 12.625 8.97501L17.15 13.475C17.2833 13.625 17.35 13.7957 17.35 13.987C17.35 14.179 17.275 14.35 17.125 14.5C16.975 14.65 16.8 14.725 16.6 14.725C16.4 14.725 16.225 14.65 16.075 14.5L12 10.45L7.9 14.525C7.76667 14.675 7.6 14.75 7.4 14.75C7.2 14.75 7.025 14.6667 6.875 14.5Z"
-                        ></path>
-                      </svg>
-                    </span>
-                  </div>
+                                class="w-6 h-6 bg-site-secondary-green-600"
+                                style="
+                                  mask: var(--sf-img-12);
+                                  -webkit-mask: var(--sf-img-12);
+                                "
+                              ></div>
                 </span>
                 <span>Does staff augmentation increase costs?</span>
               </div>
@@ -8256,21 +8250,12 @@
               >
                 <span>
                   <div
-                    class="flex h-6 w-6 justify-center rounded-full bg-green-600 align-middle"
-                  >
-                    <span class>
-                      <svg
-                        class="fill-white w-6 h-6"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M6.875 14.5C6.725 14.3667 6.65 14.1957 6.65 13.987C6.65 13.779 6.725 13.6 6.875 13.45L11.375 8.97501C11.4583 8.87501 11.5543 8.80401 11.663 8.76201C11.771 8.72068 11.8833 8.70001 12 8.70001C12.1167 8.70001 12.2293 8.72068 12.338 8.76201C12.446 8.80401 12.5417 8.87501 12.625 8.97501L17.15 13.475C17.2833 13.625 17.35 13.7957 17.35 13.987C17.35 14.179 17.275 14.35 17.125 14.5C16.975 14.65 16.8 14.725 16.6 14.725C16.4 14.725 16.225 14.65 16.075 14.5L12 10.45L7.9 14.525C7.76667 14.675 7.6 14.75 7.4 14.75C7.2 14.75 7.025 14.6667 6.875 14.5Z"
-                        ></path>
-                      </svg>
-                    </span>
-                  </div>
+                                class="w-6 h-6 bg-site-secondary-green-600"
+                                style="
+                                  mask: var(--sf-img-12);
+                                  -webkit-mask: var(--sf-img-12);
+                                "
+                              ></div>
                 </span>
                 <span>How is staff augmentation different to outsourcing?</span>
               </div>
@@ -8760,7 +8745,7 @@
             >
               <a
                 class="w-fit flex items-center justify-center gap-2 disabled:pointer-events-none [&amp;_svg]:fill-current outline-none px-4 rounded-lg active:shadow-none disabled:bg-site-neutrals-200 disabled:text-site-neutrals-50 text-site-neutrals-0 active:bg-site-secondary-green-800 bg-site-secondary-green-700 hover:bg-site-secondary-green-800 focus:shadow-site-secondary-green-50 py-2.5 site-paragraph-m font-medium mt-10"
-                href="https://www.untappedsoftware.com/start/basic-details/"
+                href="https://calendly.com/untappedsoftware/30min"
               >
                 <span class>Schedule a Call</span>
               </a>
@@ -8791,6 +8776,7 @@
             />
           </div>
           <section
+          style="height:1rem;"
             class="grid w-full grid-cols-1 px-10 mdS:grid-cols-3 mdS:pl-0 md:px-0 md:gap-4 md:grid-cols-[1fr_1fr_0.8fr] md:row-[1] md:col-span-2 mdL:col-span-3 lgS:row-span-3 lgS:pt-16 lgS:row-start-1 lgS:col-start-2 lgS:col-span-1"
           >
             <div class="mb-8 mdS:max-w-[12.25rem]">
@@ -8818,14 +8804,8 @@
                     >Methodologies</a
                   >
                 </li>
-                <li
-                  class="site-paragraph-s mb-3 text-site-neutrals-900 hover:underline"
-                >
-                  <a href="https://www.untappedsoftware.com/technologies/" class
-                    >Technologies</a
-                  >
-                </li>
-                <li
+                
+                <!-- <li
                   class="site-paragraph-s mb-3 text-site-neutrals-900 hover:underline"
                 >
                   <a
@@ -8833,8 +8813,8 @@
                     class
                     >Certifications</a
                   >
-                </li>
-                <li
+                </li> -->
+                <!-- <li
                   class="site-paragraph-s mb-3 text-site-neutrals-900 hover:underline"
                 >
                   <a
@@ -8842,7 +8822,7 @@
                     class
                     >Software Development Services</a
                   >
-                </li>
+                </li> -->
                 <!-- <li
                   class="site-paragraph-s mb-3 text-site-neutrals-900 hover:underline"
                 >
@@ -8915,6 +8895,13 @@
                 <li
                   class="site-paragraph-s mb-3 text-site-neutrals-900 hover:underline"
                 >
+                  <a href="https://www.untappedsoftware.com/technologies/" class
+                    >Technologies</a
+                  >
+                </li>
+                <!-- <li
+                  class="site-paragraph-s mb-3 text-site-neutrals-900 hover:underline"
+                >
                   <a href="https://www.untappedsoftware.com/clients/" class
                     >Case Studies</a
                   >
@@ -8930,7 +8917,7 @@
                   class="site-paragraph-s mb-3 text-site-neutrals-900 hover:underline"
                 >
                   <a href="https://press.untappedsoftware.com/" class>Press</a>
-                </li>
+                </li> -->
                 <!-- <li
                   class="site-paragraph-s mb-3 text-site-neutrals-900 hover:underline"
                 >
@@ -8947,7 +8934,7 @@
                     >Technology Resource Center</a
                   >
                 </li>  -->
-                <li
+                <!-- <li
                   class="site-paragraph-s mb-3 text-site-neutrals-900 hover:underline"
                 >
                   <a
@@ -8955,7 +8942,7 @@
                     class
                     >Client Referral Program</a
                   >
-                </li>
+                </li> -->
               </ul>
             </div>
             <div class="mb-8 mdS:max-w-[12.25rem]">
@@ -8997,7 +8984,7 @@
                 rel="noreferrer"
                 target="_blank"
                 class="w-fit flex items-center justify-center gap-2 disabled:pointer-events-none [&amp;_svg]:fill-current outline-none px-4 rounded-lg active:shadow-none disabled:bg-site-neutrals-200 disabled:text-site-neutrals-50 bg-site-primary-600 hover:bg-site-primary-700 hover:text-site-neutrals-0 active:bg-site-primary-800 active:text-site-neutrals-0 text-site-neutrals-0 focus:text-site-neutrals-0 focus:shadow-site-primary-50 py-3 site-paragraph-xl font-medium col-span-2 mdS:col-span-1 h-11"
-                href="https://www.untappedsoftware.com/start/basic-details/"
+                href="https://calendly.com/untappedsoftware/30min"
               >
                 <span class>Schedule a Call</span>
                 <span class>
@@ -9015,16 +9002,17 @@
                   </svg>
                 </span>
               </a>
-              <a
+              <!-- <a
                 rel="noreferrer"
                 class="w-fit flex items-center justify-center gap-2 disabled:pointer-events-none [&amp;_svg]:fill-current outline-none px-4 border-2 rounded-lg box-border bg-transparent text-site-neutrals-900 active:shadow-none hover:text-site-neutrals-0 disabled:bg-site-neutrals-200 disabled:border-site-neutrals-200 disabled:text-site-neutrals-50 border-current hover:bg-site-neutrals-900 hover:border-site-neutrals-900 focus:shadow-site-primary-50 py-3 site-paragraph-xl font-medium col-span-2 mdS:col-span-1 h-11"
                 href="https://www.untappedsoftware.com/contact-us/"
               >
                 <span class>Contact Us</span>
-              </a>
+              </a> -->
               <div
                 class="flex items-center text-base col-span-2 transition-all hover:text-primary-600"
               >
+              
                 <span class>
                   <div
                     class="w-4 h-4 mr-2 bg-site-neutrals-900"
@@ -9037,143 +9025,14 @@
                 <a href="tel:+17272662561">+1 (727) 266-3561</a>
               </div>
             </div>
+            
+            <a href="mailto:contact@untappedsoftware.com">contact@untappedsoftware.com</a>
           </section>
-          <section
-            class="bg-site-neutrals-50 p-10 pb-8 w-full mdS:row-start-3 mdS:col-span-2 mdL:col-span-1 mdL:row-start-4 mdL:w-[50vw] lgS:row-start-2 lgS:col-span-1 lgS:py-14 lgS:pl-7 lgS:w-full lg:py-11 lg:pl-10 lg:pr-0"
-          >
-            <p class="font-bold max-w-sm site-paragraph-m mb-4">
-              Get insights from the experts on building and scaling technology
-              teams.
-            </p>
-            <div class="max-w-xl items-center justify-center">
-              <div
-                class="mx-auto mt-6 flex-col items-center justify-center text-center text-base hidden sf-hidden"
-              ></div>
-              <div class>
-                <div></div>
-                <form
-                  id
-                  class="grid float-left gap-y-3 mdS:gap-x-3 mdS:gap-y-2 mdS:grid-cols-2 md:float-none md:grid-cols-2 md:gap-x-4"
-                  data-gtm-vis-first-on-screen6527105_182="113476"
-                  data-gtm-vis-total-visible-time6527105_182="100"
-                  data-gtm-vis-has-fired6527105_182="1"
-                >
-                  <div>
-                    <div
-                      class="flex flex-col flex-wrap gap-1 relative 2xl:!flex-row [&amp;>label]:w-full"
-                    >
-                      <label for=":R2qkdl6:" class="flex flex-col gap-1">
-                        <div
-                          id="label-top-:R2qkdl6:"
-                          class="label text-site-neutrals-600 site-paragraph-m"
-                        >
-                          Your e-mail address
-                        </div>
-                        <div
-                          class="[&amp;_input]:w-full group relative flex outline outline-1 items-center rounded-[4px] flex-nowrap outline-offset-[-1px] cursor-default outline-site-neutrals-100 hover:outline-site-neutrals-400 focus-within:outline-site-neutrals-600 focus-within:hover:outline-site-neutrals-600 focus-within:!shadow-site-primary-50 [&amp;:not(:focus-within)]:outline-site-neutrals-100 [&amp;:not(:focus-within)]:outline-1 focus-within:outline-1 focus-within:-outline-offset-1 focus-within:shadow-ring gap-2 px-2 py-2 [&amp;_input]:site-paragraph-m [&amp;_textarea]:site-paragraph-m text-site-neutrals-900 bg-white [&amp;_input]:bg-white [&amp;_input]:placeholder:text-site-neutrals-400 [&amp;_textarea]:bg-white [&amp;_textarea]:placeholder:text-site-neutrals-400"
-                          id="label-field-:R2qkdl6:"
-                        >
-                          <div class="flex flex-1 flex-col flex-wrap leading-5">
-                            <input
-                              class="border-none focus:outline-none"
-                              type="email"
-                              name="email"
-                              aria-label="email"
-                              id=":R2qkdl6:"
-                              maxlength="140"
-                              placeholder="name@email.com"
-                              value
-                            />
-                          </div>
-                        </div>
-                      </label>
-                    </div>
-                  </div>
-                  <div class="relative row-[3] md:col-span-full md:row-[2]">
-                    <fieldset class="flex flex-wrap">
-                      <legend class="hidden sf-hidden">
-                        <!-- -->
-                        Accept
-                        <!-- -->
-                      </legend>
-                      <input
-                        id=":R1akdl6:"
-                        type="checkbox"
-                        class="opacity-0 w-0 h-0 [&amp;:checked~label>div_svg]:visible [&amp;:checked~label>div]:bg-site-neutrals-900 [&amp;:checked~label>div]:border-site-neutrals-900 sf-hidden"
-                        name="understoodTerms"
-                        value
-                      />
-                      <label
-                        for=":R1akdl6:"
-                        class="flex items-center gap-3 cursor-pointer"
-                      >
-                        <div
-                          class="flex items-center justify-center w-[1.125rem] h-[1.125rem] rounded-sm border-2 border-solid border-neutrals-700 hover:ring hover:ring-offset-2 hover:ring-site-primary-50 hover:ring-offset-site-primary-50"
-                        >
-                          <span class>
-                            <svg
-                              class="fill-white stroke-white invisible stroke-[0.438rem] p-[0.125rem] w-4 h-4"
-                              xmlns="http://www.w3.org/2000/svg"
-                              xmlns:xlink="http://www.w3.org/1999/xlink"
-                              width="24px"
-                              height="24px"
-                              viewBox="0 0 24 24"
-                              xml:space="preserve"
-                            >
-                              <path
-                                transform="scale(0.26) translate(1, 4.5)"
-                                d="M34.4,72c-1.2,0-2.3-0.4-3.2-1.3L11.3,50.8c-1.8-1.8-1.8-4.6,0-6.4c1.8-1.8,4.6-1.8,6.4,0l16.8,16.7 l39.9-39.8c1.8-1.8,4.6-1.8,6.4,0c1.8,1.8,1.8,4.6,0,6.4l-43.1,43C36.7,71.6,35.6,72,34.4,72z"
-                              ></path>
-                            </svg>
-                          </span>
-                        </div>
-                        <span
-                          class="text-neutrals-700 text-[1.05rem] leading-6 font-medium"
-                        >
-                          <span class="site-paragraph-xs">
-                            By subscribing I accept the
-                            <!-- -->
-                            <a
-                              href="https://www.untappedsoftware.com/privacy-policy/"
-                              target="_blank"
-                              class="terms-link underline"
-                              rel="noreferrer noopener"
-                              >Privacy Policy</a
-                            >
-                            .
-                          </span>
-                        </span>
-                      </label>
-                    </fieldset>
-                  </div>
-                  <button
-                    type="submit"
-                    class="flex items-center justify-center gap-2 disabled:pointer-events-none [&amp;_svg]:fill-current outline-none px-4 border-2 rounded-lg box-border bg-transparent text-site-neutrals-900 active:shadow-none hover:text-site-neutrals-0 disabled:bg-site-neutrals-200 disabled:border-site-neutrals-200 disabled:text-site-neutrals-50 border-current hover:bg-site-neutrals-900 hover:border-site-neutrals-900 focus:shadow-site-primary-50 py-2.5 site-paragraph-m font-medium h-11 w-[140px] xl:ml-2 site-paragraph-s mdS:mt-6"
-                  >
-                    <span class>Subscribe</span>
-                    <span class>
-                      <svg
-                        class="transition-colors duration-300 [&amp;:not(svg)]:bg-current"
-                        width="16"
-                        height="12"
-                        viewBox="0 0 16 12"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M1.71429 0C1.26035 0.00232382 0.825659 0.183682 0.50467 0.50467C0.183682 0.825659 0.00232382 1.26035 0 1.71429L0 9.33333C0.00241234 9.78724 0.183799 10.2219 0.504768 10.5428C0.825738 10.8638 1.26037 11.0452 1.71429 11.0476H14.2857C14.7396 11.0452 15.1743 10.8638 15.4952 10.5428C15.8162 10.2219 15.9976 9.78724 16 9.33333V1.71429C15.9976 1.26037 15.8162 0.825738 15.4952 0.504768C15.1743 0.183799 14.7396 0.00241234 14.2857 0L1.71429 0ZM1.83912 1.14286H14.1667L8.35034 6.33333C8.12857 6.53129 7.88231 6.53163 7.65986 6.33333L1.83912 1.14252V1.14286ZM1.14286 2.05374L5.05952 5.54762L1.14286 9.30952V2.05374ZM14.8571 2.05374V9.30374L10.9524 5.54184L14.8571 2.05374ZM10.0952 6.30952L13.8276 9.90442H2.17279L5.91837 6.31564L6.90034 7.19047C7.20627 7.4598 7.59989 7.60838 8.00748 7.60838C8.41508 7.60838 8.80869 7.4598 9.11463 7.19047L10.0969 6.30952H10.0952Z"
-                        ></path>
-                      </svg>
-                    </span>
-                  </button>
-                </form>
-              </div>
-            </div>
-          </section>
+         
           <section
             class="bg-site-neutrals-50 p-10 w-full mdS:row-start-5 mdS:col-span-2 md:px-10 md:pb-10 md:pt-0 mdL:col-span-4 lgS:row-start-3 lgS:row-span-2 lgS:col-span-1 lgS:pl-7 lg:pl-10"
           >
-            <p class="site-paragraph-xl mb-4 font-bold">
+            <p class="site-paragraph-xl mb-4 font-bold" style="padding-top: 1rem;">
               Follow us<span class="text-site-primary-600">.</span>
             </p>
             <ul class="flex gap-4">
